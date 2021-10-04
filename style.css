@@ -25,17 +25,16 @@ body {
   border-radius: 1rem;
 }
 
-/* .biopic {
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
-  float: left;
-} */
-
+.bio {
+  padding: 20px;
+  background: #000;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem;
+}
 .avatar {
   width: 10rem;
   height: 10rem;
-  border-radius: 1rem;
+  border-radius: 5rem;
   float: left;
   margin-right: 0.5rem;
   margin-bottom: 0.5rem;
@@ -65,6 +64,13 @@ h3 {
   font-family: monospace;
   font-size: 2em;
   margin-top: 0.5em;
+}
+
+h4 {
+  padding: 20px;
+  background: #000;
+  border-radius: 1rem;
+  color: white;
 }
 
 img {
