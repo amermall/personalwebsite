@@ -1,0 +1,87 @@
+html,
+body {
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  background: url(./sw-epiv.jpg) center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 100%;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 60%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#content {
+  padding: 20px;
+  background: rgb(228, 228, 228);
+  border-radius: 1rem;
+}
+
+/* .biopic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  float: left;
+} */
+
+.avatar {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 1rem;
+  float: left;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.clear {
+  clear: left;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #fff;
+}
+
+h1 {
+  font-size: 2.2em;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: monospace;
+  font-size: 1.7em;
+  margin-top: 0.5em;
+}
+
+h3 {
+  font-family: monospace;
+  font-size: 2em;
+  margin-top: 0.5em;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+a {
+  color: orange;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
