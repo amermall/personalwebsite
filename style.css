@@ -73,6 +73,12 @@ h4 {
   color: white;
 }
 
+h5 {
+  font-family: monospace;
+  padding: 20px;
+  color: azure;
+}
+
 img {
   max-width: 100%;
   width: 100%;
